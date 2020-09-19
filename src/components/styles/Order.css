@@ -1,0 +1,13 @@
+
+.navbar-container{
+  max-height: 40vh;
+  height: 100%;
+}
+.order-container{
+  max-height: 80vh;
+  height: 100%;
+}
+
+.order-image{
+  background-color: #e5f3fb;
+}

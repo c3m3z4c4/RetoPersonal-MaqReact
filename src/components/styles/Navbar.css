@@ -1,0 +1,20 @@
+.Navbar {
+  width: 100%;
+  padding: 0.5rem 0;
+  color: black;
+}
+
+.Navbar-brand {
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar-brand:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.Navbar__brand-logo {
+  margin-right: 0.5rem;
+}

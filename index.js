@@ -3,10 +3,8 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import './global.css';
-
-
-import App from './components/App.jsx';
+import Order from './src/components/Order';
 
 const container = document.getElementById('app');
 
-ReactDOM.render(<App />, container);
+ReactDOM.render(<Order />, container);
