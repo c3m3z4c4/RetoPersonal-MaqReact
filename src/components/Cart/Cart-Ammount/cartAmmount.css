@@ -1,33 +1,40 @@
-.cartAmmount-container{
-  display: flex;
-flex-flow: column;
- 
+.cartAmmount-container {
+    display: flex;
+    flex-flow: column;
+    padding: 2.2em 2em;
 }
-.discount{ 
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  flex: 1;
-}
-.discountLogo{
-  width: 25px;
-  height: 25px;
-  order: 1;
-}
-.discountText{
- order: 2;
-}
-.subtotal, .total{
-  font-size: 1.8em;
-  font-weight: bold;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: space-between;
-  flex: 1;
 
+.discount {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex: 1;
 }
+
+.discountLogo {
+    width: 25px;
+    height: 25px;
+    order: 1;
+    margin-right: 10px;
+}
+
+.discountText {
+    order: 2;
+}
+
+.subtotal,
+.total {
+    font-size: 1.4em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0.8em;
+    flex: 1;
+}
+
 .dashed {
-  border-top: 3px dashed #000;
+    border-top: 3px dashed #000;
 }

@@ -1,14 +1,20 @@
 import React from 'react'
-//import { Link } from 'react-router-dom'
+import CashAddress from './CashAddress/index'
+import CashPay from './cashPay/index'
 
 
 const CashOut = () => {
   return (
     <div className="container">
       <div className="cashout-container">
-        <h1>Time to pay</h1>
+          <CashAddress></CashAddress>
+          <br/>
+          <CashPay></CashPay>
           <div className="d-flex justify-content-around">
-            
+            <div>
+              <span>Total</span><br/>
+              <span>$ 44.39</span>
+            </div>
             <button type="button" className="btn btn-dark">Place Order</button>
           </div>
       </div>
