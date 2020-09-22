@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Navbar from '../components/Navbar.jsx';
-import Carrito from '../components/Cart'
+import Navbar from '../components/Navbar/index';
+import Carrito from '../components/Cart/index'
 
 const Cart = () => {
   return (

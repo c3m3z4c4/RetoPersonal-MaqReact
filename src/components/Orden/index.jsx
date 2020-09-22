@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import './styles/Order.css'
-import platillo from '../images/hotdog.png'
+import '../styles/Order.css'
+import platillo from '../../images/food/hotdog.png'
 
 
 class Orden extends React.Component {

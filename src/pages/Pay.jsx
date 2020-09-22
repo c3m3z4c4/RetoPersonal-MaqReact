@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Navbar from '../components/Navbar.jsx';
-import CashOut from '../components/CashOut'
+import Navbar from '../components/Navbar/index';
+import CashOut from '../components/Cashout/index'
 
 const Pay = () => {
   return (

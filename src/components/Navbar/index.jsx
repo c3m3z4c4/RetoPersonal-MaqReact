@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-import './styles/Navbar.css'
+import '../styles/Navbar.css'
 
-import flecha from '../images/flecha.svg'
-import perfil from '../images/avatar.png'
+import flecha from '../../images/navbar/flecha.svg'
+import perfil from '../../images/navbar/avatar.png'
 
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Navbar from '../components/Navbar.jsx';
-import Orden from '../components/Orden';
+import Navbar from '../components/Navbar/index';
+import Orden from '../components/Orden/index';
 
 
 
