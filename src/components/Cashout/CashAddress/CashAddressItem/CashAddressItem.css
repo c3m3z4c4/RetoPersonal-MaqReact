@@ -1,0 +1,17 @@
+.container-item{
+  display: flex;
+  flex-flow: column;
+  padding-top: 1em;
+}
+
+.item-Adrr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.item-addr-text{
+  max-width: 80%;
+  width: 100%;
+  padding: 1em;
+}
+
