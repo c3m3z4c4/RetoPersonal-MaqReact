@@ -9,4 +9,4 @@ import App from './components/App.jsx';
 
 const container = document.getElementById('app');
 
-ReactDOM.render(<App />, container);
+ReactDOM.render( < App / > , container);

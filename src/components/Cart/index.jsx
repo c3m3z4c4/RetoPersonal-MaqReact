@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 
 import CartList from './Cart-List/index'
 import CartAmmount from './Cart-Ammount/index'
-/* import platillo from '../../images/food/hotdog.png'
-import platillo2 from '../../images/food/pizza.png' */
 
 class Cart extends React.Component {
   render (){
