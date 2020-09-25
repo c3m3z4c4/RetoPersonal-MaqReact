@@ -11,8 +11,9 @@ class CashAddressItem extends React.Component {
               <h4>{this.props.title}</h4>
               <span>{this.props.address}</span>
             </div>
-            <div className="item-Sellect form-check">
-                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..."/>
+            <div className="item-addr-select">
+                <input type="checkbox" id="item-addr-select"/>
+                <label for="item-addr-select"></label>
             </div>
           </div>
       </div>

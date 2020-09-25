@@ -6,14 +6,19 @@ class CashPayItem extends React.Component {
  render() {
   return (
       <div className="container-item">
-          <div className="item-Adrr">
-            <img src={this.props.image} alt=""/>
-            <h4>{this.props.title}</h4>
-            <span>{this.props.concept}</span>
+           
+           <div className="item-pay">
+            <span>{this.props.title}</span>
+             <div className="item-pay-text">
+              <img className="item-pay-img" src={this.props.image} alt="Pay Method"/>
+              <span>{this.props.concept}</span>
+            </div>
+            <div className="item-pay-select">
+                <input type="checkbox" id="item-pay-select"/>
+                <label for="item-pay-select"></label>
+            </div>
           </div>
-          <div className="item-Sellectform-check">
-              <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..."/>
-          </div>
+ 
       </div>
     )
   }
